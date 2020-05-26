@@ -1,0 +1,72 @@
+:root {
+    --glowing-color: #EE1C25;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vh;
+    height: 100vh;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #4D4D4D;
+    width: 50%;
+    height: 80%;
+
+    border-radius: 5px;
+}
+
+.housing {
+    background: #323232;
+    width: 50%;
+    height: 30%;
+    
+    margin: 5px;
+
+    border-radius: 5px;
+}
+
+.light {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+}
+
+.red {
+    background: #EE1C25;
+}
+
+.yellow {
+    background: #FFDE17;
+}
+
+.green {
+    background: #3AB54A;
+}
+
+.glowing {
+    /* //background: blue; */
+
+    box-shadow:0 0 150px var(--glowing-color);
+}
